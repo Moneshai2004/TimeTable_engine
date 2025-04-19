@@ -1,0 +1,871 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Class Timetable</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 20px;
+                    background-color: #f5f5f5;
+                }
+                .container {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                    background-color: white;
+                    padding: 20px;
+                    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                    border-radius: 5px;
+                }
+                h1 {
+                    color: #333;
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+                h2 {
+                    color: #444;
+                    margin-top: 40px;
+                    padding-bottom: 10px;
+                    border-bottom: 2px solid #eee;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin-bottom: 30px;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 10px;
+                    text-align: center;
+                }
+                th {
+                    background-color: #f2f2f2;
+                    font-weight: bold;
+                }
+                .period-time {
+                    font-size: 0.8em;
+                    color: #666;
+                    display: block;
+                }
+                .course {
+                    font-weight: bold;
+                    color: #333;
+                }
+                .teacher {
+                    font-size: 0.85em;
+                    color: #666;
+                }
+                .stats {
+                    margin-top: 40px;
+                    padding: 15px;
+                    background-color: #f9f9f9;
+                    border-radius: 5px;
+                }
+                .footer {
+                    margin-top: 30px;
+                    text-align: center;
+                    font-size: 0.8em;
+                    color: #666;
+                }
+                .lab {
+                    background-color: #e6f7ff;
+                    border-left: 2px solid #0099cc;
+                    border-right: 2px solid #0099cc;
+                }
+                .lab-start {
+                    border-top: 2px solid #0099cc;
+                    border-left: 2px solid #0099cc;
+                    border-right: 2px solid #0099cc;
+                }
+                .lab-end {
+                    border-bottom: 2px solid #0099cc;
+                    border-left: 2px solid #0099cc;
+                    border-right: 2px solid #0099cc;
+                }
+                .admin {
+                    background-color: #fff2e6;
+                }
+                .theory {
+                    background-color: #f2f2f2;
+                }
+                .free {
+                    background-color: #f9f9f9;
+                    color: #999;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h1>Class Timetable</h1>
+        
+                <p style="text-align: center;">Generated on: 2025-04-19 12:37:43</p>
+        
+                <h2>Section A Timetable</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+            
+                            <th>Period 1<span class="period-time">08:30-09:20</span></th>
+                
+                            <th>Period 2<span class="period-time">09:20-10:10</span></th>
+                
+                            <th>Period 3<span class="period-time">10:10-11:00</span></th>
+                
+                            <th>Period 4<span class="period-time">11:15-12:00</span></th>
+                
+                            <th>Period 5<span class="period-time">12:00-12:45</span></th>
+                
+                            <th>Period 6<span class="period-time">13:35-14:25</span></th>
+                
+                            <th>Period 7<span class="period-time">14:25-15:15</span></th>
+                
+                        </tr>
+                    </thead>
+                    <tbody>
+            
+                        <tr>
+                            <td>Mon</td>
+                
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">EVS</div>
+                                <div class="teacher">Ms. Sophia</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">ACT</div>
+                                <div class="teacher">All Staff</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Tue</td>
+                
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">PD</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="lab lab-start">
+                                <div class="course">FDSA_LAB</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="lab lab-end">
+                                <div class="course">FDSA_LAB</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Wed</td>
+                
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="free">
+                                <div class="course">FREE</div>
+                            </td>
+                            
+                            <td class="lab lab-start">
+                                <div class="course">ML_LAB</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="lab lab-end">
+                                <div class="course">ML_LAB</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Thu</td>
+                
+                            <td class="theory">
+                                <div class="course">EVS</div>
+                                <div class="teacher">Ms. Sophia</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">LIB</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Fri</td>
+                
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">EVS</div>
+                                <div class="teacher">Ms. Sophia</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">PD</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">ACT</div>
+                                <div class="teacher">All Staff</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Sat</td>
+                
+                            <td class="free">
+                                <div class="course">FREE</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">EVS</div>
+                                <div class="teacher">Ms. Sophia</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                        </tr>
+                
+                    </tbody>
+                </table>
+            
+                <h2>Section B Timetable</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+            
+                            <th>Period 1<span class="period-time">08:30-09:20</span></th>
+                
+                            <th>Period 2<span class="period-time">09:20-10:10</span></th>
+                
+                            <th>Period 3<span class="period-time">10:10-11:00</span></th>
+                
+                            <th>Period 4<span class="period-time">11:15-12:00</span></th>
+                
+                            <th>Period 5<span class="period-time">12:00-12:45</span></th>
+                
+                            <th>Period 6<span class="period-time">13:35-14:25</span></th>
+                
+                            <th>Period 7<span class="period-time">14:25-15:15</span></th>
+                
+                        </tr>
+                    </thead>
+                    <tbody>
+            
+                        <tr>
+                            <td>Mon</td>
+                
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="lab lab-start">
+                                <div class="course">ML_LAB</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="lab lab-end">
+                                <div class="course">ML_LAB</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Tue</td>
+                
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">PD</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">EVS</div>
+                                <div class="teacher">Ms. Sophia</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Wed</td>
+                
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">ACT</div>
+                                <div class="teacher">All Staff</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">EVS</div>
+                                <div class="teacher">Ms. Sophia</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Thu</td>
+                
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">EVS</div>
+                                <div class="teacher">Ms. Sophia</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">LIB</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Fri</td>
+                
+                            <td class="theory">
+                                <div class="course">ML</div>
+                                <div class="teacher">Mr. Dinesh Kumar</div>
+                            </td>
+                            
+                            <td class="free">
+                                <div class="course">FREE</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">FDSA</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">PD</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">EVS</div>
+                                <div class="teacher">Ms. Sophia</div>
+                            </td>
+                            
+                        </tr>
+                
+                        <tr>
+                            <td>Sat</td>
+                
+                            <td class="free">
+                                <div class="course">FREE</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">CN</div>
+                                <div class="teacher">Ms. Kirupavathy</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">OS</div>
+                                <div class="teacher">Ms. K.Sudha</div>
+                            </td>
+                            
+                            <td class="lab lab-start">
+                                <div class="course">FDSA_LAB</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="lab lab-end">
+                                <div class="course">FDSA_LAB</div>
+                                <div class="teacher">Ms. Deepika</div>
+                            </td>
+                            
+                            <td class="theory">
+                                <div class="course">PAS</div>
+                                <div class="teacher">Ms. Sowmiya</div>
+                            </td>
+                            
+                            <td class="admin">
+                                <div class="course">ACT</div>
+                                <div class="teacher">All Staff</div>
+                            </td>
+                            
+                        </tr>
+                
+                    </tbody>
+                </table>
+            
+                <div class="stats">
+                    <h2>Timetable Statistics</h2>
+        
+                    <h3>Section A Subject Distribution</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Allocated Periods</th>
+                                <th>Required Periods</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            
+                            <tr>
+                                <td>ACT</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                            <tr>
+                                <td>CN</td>
+                                <td>6</td>
+                                <td>6</td>
+                            </tr>
+                
+                            <tr>
+                                <td>EVS</td>
+                                <td>4</td>
+                                <td>4</td>
+                            </tr>
+                
+                            <tr>
+                                <td>FDSA</td>
+                                <td>5</td>
+                                <td>5</td>
+                            </tr>
+                
+                            <tr>
+                                <td>FDSA_LAB</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                            <tr>
+                                <td>FREE</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                            <tr>
+                                <td>LIB</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                
+                            <tr>
+                                <td>ML</td>
+                                <td>5</td>
+                                <td>5</td>
+                            </tr>
+                
+                            <tr>
+                                <td>ML_LAB</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                            <tr>
+                                <td>OS</td>
+                                <td>6</td>
+                                <td>6</td>
+                            </tr>
+                
+                            <tr>
+                                <td>PAS</td>
+                                <td>5</td>
+                                <td>5</td>
+                            </tr>
+                
+                            <tr>
+                                <td>PD</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                        </tbody>
+                    </table>
+            
+                    <h3>Section B Subject Distribution</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Subject</th>
+                                <th>Allocated Periods</th>
+                                <th>Required Periods</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            
+                            <tr>
+                                <td>ACT</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                            <tr>
+                                <td>CN</td>
+                                <td>6</td>
+                                <td>6</td>
+                            </tr>
+                
+                            <tr>
+                                <td>EVS</td>
+                                <td>4</td>
+                                <td>4</td>
+                            </tr>
+                
+                            <tr>
+                                <td>FDSA</td>
+                                <td>5</td>
+                                <td>5</td>
+                            </tr>
+                
+                            <tr>
+                                <td>FDSA_LAB</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                            <tr>
+                                <td>FREE</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                            <tr>
+                                <td>LIB</td>
+                                <td>1</td>
+                                <td>1</td>
+                            </tr>
+                
+                            <tr>
+                                <td>ML</td>
+                                <td>5</td>
+                                <td>5</td>
+                            </tr>
+                
+                            <tr>
+                                <td>ML_LAB</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                            <tr>
+                                <td>OS</td>
+                                <td>6</td>
+                                <td>6</td>
+                            </tr>
+                
+                            <tr>
+                                <td>PAS</td>
+                                <td>5</td>
+                                <td>5</td>
+                            </tr>
+                
+                            <tr>
+                                <td>PD</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                
+                        </tbody>
+                    </table>
+            
+                    <h3>Teacher Workload</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Teacher</th>
+                                <th>Total Periods</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+        
+                            <tr>
+                                <td>All Staff</td>
+                                <td>4</td>
+                            </tr>
+            
+                            <tr>
+                                <td>Mr. Dinesh Kumar</td>
+                                <td>14</td>
+                            </tr>
+            
+                            <tr>
+                                <td>Ms. Deepika</td>
+                                <td>14</td>
+                            </tr>
+            
+                            <tr>
+                                <td>Ms. K.Sudha</td>
+                                <td>12</td>
+                            </tr>
+            
+                            <tr>
+                                <td>Ms. Kirupavathy</td>
+                                <td>18</td>
+                            </tr>
+            
+                            <tr>
+                                <td>Ms. Sophia</td>
+                                <td>8</td>
+                            </tr>
+            
+                            <tr>
+                                <td>Ms. Sowmiya</td>
+                                <td>10</td>
+                            </tr>
+            
+                            <tr>
+                                <td>None</td>
+                                <td>4</td>
+                            </tr>
+            
+                        </tbody>
+                    </table>
+                </div>
+        
+                <div class="footer">
+                    Generated using Timetable Generator
+                </div>
+            </div>
+        </body>
+        </html>
+        
